@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Biblioteca Digital</title>
+    <link rel="stylesheet" href="./style/styles.css">
+    <link rel="stylesheet" href="./style/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header id="menu">
+        <div id="logo-text">
+            <a href="home.php" id="logo-nav">
+                Biblioteca Digital
+            </a>
+        </div>
+        <div id="search-bar">
+            <input type="text" placeholder="Pesquise aqui" />
+            <button type="submit">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </div>
+        <div class="change-to-adm">
+            <a href="adm-homepage.html" class="change-to-adm-btn">Administrador</a>
+        </div>
+    </header>
+
+    <section id="carousel">
+        <p id="carousel-text">
+            Um site; Todos os livros que você precisa.
+        </p>
+    </section>
+
+    <section id="catalog">
+        <h2 id="page-title-1">
+            Catálogo
+        </h2>
+        <div id="full-catalog">
+            <div id="filters">
+                <span>
+                    Filtrar por:
+                </span>
+
+                <div class="filter-group">
+                    <button id="show-date">
+                        Data <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div id="filter-date" class="filter-options" style="display: none;">
+                        <label for="start-date">De:</label>
+                        <input type="date" id="start-date">
+                        <label for="end-date">Até:</label>
+                        <input type="date" id="end-date">
+                    </div>
+                </div>
+
+                <div class="filter-group">
+                    <button id="show-author">
+                        Autor <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div id="select-author" class="filter-options" style="display: none;">
+                        <label for="author-name">Nome do autor:</label>
+                        <input type="text" id="author-name">
+                        <button type="submit">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div id="books-in-storage">
+                <div class="book-card">
+                    <img src="" alt="" id="book-cover">
+                    <div class="book-attributes">
+                        <span>
+                            Title
+                        </span>
+                        <span>
+                            Author
+                        </span>
+                        <span>
+                            Year
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
