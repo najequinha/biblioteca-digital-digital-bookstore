@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 @import url('home.css');
+@import url('about-us.css');
 
 *{
     margin: 0;
@@ -25,3 +26,440 @@
     --color-neutra-0: #fff;
     --color-neutra-1: #1d1d1d;
 }
+
+body {
+    font-family: 'Nunito';
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+}
+#menu{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    padding: 15px 100px;
+    background-color: white;
+}
+#logo-text{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+#logo-nav{
+    text-decoration: none;
+    color: #1e1e1e;
+    font-weight: 700;
+}
+#second-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    width: 70%;
+    gap: 25px;
+}
+.search-container-pg-inicial {
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    padding: 5px 10px;
+    gap: 15px;
+    border: solid 1px #1e1e1e;
+    width: 50%;
+}
+.search-container-pg-inicial input {
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 12px;
+    width: 100%;
+    padding-left: 5px;
+    color: #2793E0;
+    font-family: "Poppins", sans-serif;
+}
+.search-container-pg-inicial input::placeholder {
+    color: #5E5E5E;
+    font-size: 12px;
+}
+.search-container-pg-inicial button {
+    align-items: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+.search-containerpg-inicial button .fa-solid {
+    align-items: center;
+    color: var(--color-primary-1);
+    font-size: 16px;
+}
+.change-to-adm{
+    display: flex;
+}
+.change-to-adm-btn{
+    color: #1e1e1e;
+    font-size: 14px;
+    font-weight: 600;
+}
+#carousel{
+    height: 300px;
+    background-image: url(./assets/imgs/books-bookstore-book-reading-159711.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0px 100px;
+}
+#carousel-about-us{
+    background-image: url(./assets/imgs/books-bookstore-book-reading-159711.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 50px 100px;
+}
+#carousel-text{
+    padding: 5px;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 600;
+    background-color: #1e1e1e;
+    width: 50%;
+}
+#catalog{
+    padding: 0px 100px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.page-title{
+    font-size: 16px;
+    color: #1e1e1e;
+}
+#full-catalog{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 5px;
+    /* background-color: blue; */
+    padding: 25px 0px 50px 25px;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+#filters{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 15%;
+}
+#filters span{
+    color: #1e1e1e;
+    font-size: 14px;
+    font-weight: 600;
+}
+.filter-group{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+#show-date, #show-author, .fa-solid{
+    align-items: center;
+    display: flex;
+    gap: 5px;
+    background: none;
+    border: none;
+    font-family: 'Nunito';
+    color: #5E5E5E;
+    font-size: 12px;
+}
+.filter-options label{
+    gap: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #1e1e1e;
+}
+.filter-options input{
+    border-radius: 50px;
+    border: 1px solid #1e1e1e;
+    padding: 3px 5px;
+    font-family: 'Nunito';
+    font-size: 12px;
+    gap: 5px;
+}
+
+#filter-date{
+    gap: 25px;
+}
+
+.break-line{
+    background-color: #1e1e1e;
+    display: flex;
+    height: 1px; width: 95%;
+}
+
+.break-line-white{
+    background-color: white;
+    display: flex;
+    height: 1px; width: 95%;
+}
+
+#select-author{
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    padding: 5px 10px;
+    gap: 15px;
+    border: solid 1px #1e1e1e;
+    width: 50%;
+}
+
+.select-author {
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    padding: 3px 5px;
+    gap: 15px;
+    border: solid 1px #1e1e1e;
+    width: 100%;
+}
+.select-author input {
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 12px;
+    width: 100%;
+    padding-left: 5px;
+    color: #2793E0;
+    font-family: "Poppins", sans-serif;
+}
+.select-author input::placeholder {
+    color: #5E5E5E;
+    font-size: 12px;
+}
+.select-author button {
+    align-items: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+.selectauthor button .fa-solid {
+    align-items: center;
+    color: var(--color-primary-1);
+    font-size: 16px;
+}
+
+#books-in-storage{
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 6.666%;
+}
+
+.book-card{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    gap: 10px;
+    cursor: pointer;
+}
+
+#book-cover{
+    box-shadow: 0px 0px 4px #1e1e1e10;
+    box-shadow: 0px 0px 4px #1e1e1e20;
+}
+
+.book-attributes{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    padding-bottom: 6.666%;
+}
+
+.book-title{
+    font-size: 16px;
+    color: #1e1e1e;
+    font-weight: 700
+}
+
+.book-attributes span{
+    font-size: 14px;
+    color: #5E5E5E;
+    font-weight: 500;
+}
+
+#simple-footer{
+    background-color: #5E5E5E;
+    width: 100%;
+    padding: 25px 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer-content{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    gap: 25px;
+}
+
+#footer-content span{
+    color: white;
+    font-weight: 600;
+}
+
+#footer-content p{
+    color: white;
+    font-size: 14px;
+}
+
+.contact-support{
+    gap: 5px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.informations{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.follow-us-our-story{
+    gap: 5px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.follow-us, .about-us{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.follow-us a{
+    text-decoration: none;
+    color: white;
+}
+
+.about-us a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+#carousel-title{
+    background-color: #1e1e1e;
+    color: #ffffff;
+    font-family: 'Nunito';
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px;
+}
+
+#linha-do-tempo{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 100px;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    gap: 25px;
+}
+
+#tl-img-div{
+    width: 100%;
+}
+
+#timeline-img{
+    width: 100%;
+    height: 100%;
+}
+
+.timeline{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.timeline-left{
+    width: 100%;
+    padding-right: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.timeline-right{
+    padding-left: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.timeline-year{
+    color: #1e1e1e;
+}
+
+.timeline-year::before{
+    content: "•";
+    color: #1e1e1e;
+    font-size: 16px;
+}
+
+.timeline-moment{
+    padding-left: 20px;
+    color: #1e1e1e;
+}
+
+.timeline-moment::before{
+    content: "|";
+    color: #1e1e1e;
+    font-size: 16px;
+}
+
+.final-statement{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 50px 100px;
+}
+
+.final-statement .fa-solid{
+    color: #1e1e1e;
+    font-size: 48px;
+}
+
+.final-text{
+    font-size: 18px;
+    color: #1e1e1e;
+    font-weight: 600;
+}
+
+
