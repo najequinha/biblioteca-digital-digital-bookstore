@@ -107,6 +107,80 @@ body {
     font-size: 14px;
     font-weight: 600;
 }
+
+#menu-adm{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    padding: 15px 100px;
+    background-color: #1e1e1e;
+}
+#logo-text-adm{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+#logo-nav-adm{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 700;
+}
+#second-div-adm{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    width: 70%;
+    gap: 25px;
+}
+.search-container-pg-inicial-adm{
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    padding: 5px 10px;
+    gap: 15px;
+    border: solid 1px #ffffff;
+    width: 50%;
+}
+.search-container-pg-inicial-adm input {
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 12px;
+    width: 100%;
+    padding-left: 5px;
+    color: #2793E0;
+    font-family: "Poppins", sans-serif;
+}
+.search-container-pg-inicial-adm input::placeholder {
+    color: #a1a1a1;
+    font-size: 12px;
+}
+.search-container-pg-inicial-adm button {
+    align-items: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+.search-containerpg-inicial-adm button .fa-solid {
+    align-items: center;
+    color: #ffffff;
+    font-size: 16px;
+}
+.change-to-general{
+    display: flex;
+}
+.change-to-general-btn{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+}
 #carousel{
     height: 300px;
     background-image: url(./assets/imgs/books-bookstore-book-reading-159711.jpeg);
@@ -206,7 +280,10 @@ body {
 .break-line{
     background-color: #1e1e1e;
     display: flex;
-    height: 1px; width: 95%;
+    align-items: center;
+    justify-content: center;
+    height: 1px; 
+    width: 100%;
 }
 
 .break-line-white{
@@ -360,6 +437,10 @@ body {
     gap: 5px;
 }
 
+.social-media-btns{
+    gap: 15px;
+}
+
 .follow-us a{
     text-decoration: none;
     color: white;
@@ -462,4 +543,116 @@ body {
     font-weight: 600;
 }
 
+.books-to-manage{
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
 
+.books-header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    gap: 5px;
+    border-radius: 10px;
+    background-color: #acacac;
+}
+
+.checkbox-btn{
+    width: 20%;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    gap: 5px;
+}
+
+.checkbox-btn span{
+    color: #09385a;
+    font-size: 10px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.checkbox-btn button{
+    width: 16px;
+    height: 16px;
+    background: none;
+    border: solid 1px #1e1e1e;
+    border-radius: 2px;
+}
+
+.labels{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1px;
+}
+
+.labels span{
+    width: 25%;
+    font-size: 14px;
+    color: #1e1e1e;
+    font-weight: 600;
+}
+
+.btns{
+    width: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 10px;
+    gap: 25px;
+}
+
+.btns .fa-pen-to-square{
+    color: rgb(10, 82, 10);
+    font-size: 16px;
+}
+
+.btns .fa-trash-can{
+    color: rgb(155, 6, 6);
+    font-size: 16px;
+}
+
+.book-card-adm{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 25px 10px;
+    gap: 5px;
+}
+
+.book-cover-adm{
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+}
+
+.checkbox-btn-book{
+    display: flex;
+    width: 10%;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.checkbox-btn-book button{
+    width: 16px;
+    height: 16px;
+    color: #1e1e1e;
+    border: solid 1px #1e1e1e;
+    border-radius: 2px;
+}
+
+.book-cover-img-adm{
+    width: 50%;
+    border-radius: 2px;
+    box-shadow: 1px 1px 8px #1e1e1e10;
+    box-shadow: 1px 1px 8px #1e1e1e20;
+}
