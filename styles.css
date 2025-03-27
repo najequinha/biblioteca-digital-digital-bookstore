@@ -656,3 +656,148 @@ body {
     box-shadow: 1px 1px 8px #1e1e1e10;
     box-shadow: 1px 1px 8px #1e1e1e20;
 }
+
+.page-title-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page-title-div a{
+    background-color: #2793E0;
+    border-radius: 15px;
+    text-decoration: none;
+    color: white;
+    padding: 3px 10px;
+    gap: 5px;
+    font-family: 'Nunito';
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.page-title-div a .fa-solid{
+    color: white;
+}
+
+.cadastrar-livro{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 50px 100px;
+}
+
+.cadastrar-livro-content{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 25px;
+}
+
+.cadastrar-livro-form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cadastrar-livro-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.cadastrar-livro-form label {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.cadastrar-livro-form input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.cadastrar-livro-form input::placeholder {
+    font-family: 'Nunito';
+    font-size: 14px;
+}
+
+.cadastrar-livro-form input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.cadastrar-livro-form #form-div1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.upload-cover{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+}
+
+.upload-box {
+    width: 100%;
+    height: 200px;
+    border: 1px dashed #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9f9f9;
+    cursor: pointer;
+}
+
+.upload-box span{
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.upload-box img {
+    max-width: 100%;
+    max-height: 100%;
+    display: none;
+}
+
+
+.upload-btn{
+    background-color: #007bff;
+    border: none;
+    padding: 3px 25px;
+    border-radius: 50px;
+    margin-top: 15px;
+    color: white;
+    font-family: 'Nunito';
+    gap: 5px;
+    font-weight: 600;
+}
+
+.upload-btn .fa-solid{
+    color: white;
+}
+
+.submit-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.submit-btn button{
+    background-color: #007bff;
+    border: none;
+    padding: 3px 25px;
+    border-radius: 50px;
+    color: white;
+    font-family: 'Nunito';
+    gap: 5px;
+    font-weight: 600;
+    font-size: 16px;
+}
