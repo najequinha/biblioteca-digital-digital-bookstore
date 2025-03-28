@@ -34,7 +34,7 @@
 <body>
     <header id="menu-adm">
         <div id="logo-text-adm">
-            <a href="home.php" id="logo-nav-adm">Biblioteca Digital</a>
+            <a href="index.php" id="logo-nav-adm">Biblioteca Digital</a>
         </div>
         <div id="second-div-adm">
             <div class="search-container-pg-inicial-adm">
@@ -88,6 +88,36 @@
             </div>
         </div>
     </section>
+
+    <footer id="simple-footer">
+        <div id="footer-content">
+            <div class="contact-support">
+                <span>Contato e suporte</span>
+                <div class="break-line-white"></div>
+                <div class="informations">
+                    <p>(67) 99999-6666</p>
+                    <p>vajulinhadmdabiblioteca@hotmail.com</p>
+                    <p>R. do Parque, 75 - Centro, Campo Grande, MS</p>
+                </div>
+            </div>
+            <div class="follow-us-our-story">
+                <div class="follow-us">
+                    <span>Siga nossas redes sociais</span>
+                    <div class="break-line-white"></div>
+                    <div class="social-media-btns">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="about-us">
+                    <span>Sobre a empresa</span> 
+                    <div class="break-line-white"></div>
+                    <a href="about-us.php">Nossa história</a>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <script src="script.js"></script>
 </body>

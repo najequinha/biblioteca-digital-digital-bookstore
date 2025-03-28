@@ -227,7 +227,6 @@ body {
     flex-direction: row;
     width: 100%;
     gap: 5px;
-    /* background-color: blue; */
     padding: 25px 0px 50px 25px;
     align-items: flex-start;
     justify-content: space-between;
