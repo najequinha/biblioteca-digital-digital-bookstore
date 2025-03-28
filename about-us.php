@@ -1,3 +1,7 @@
+<?php 
+    include './DB/config.php';
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -10,7 +14,7 @@
 <body>
     <header id="menu">
         <div id="logo-text">
-            <a href="home.php" id="logo-nav">
+            <a href="index.php" id="logo-nav">
                 Biblioteca Digital
             </a>
         </div>
@@ -22,7 +26,7 @@
                 </button>
             </div>
             <div class="change-to-adm">
-                <a href="adm-homepage.html" class="change-to-adm-btn">Administrador</a>
+                <a href="adm-homepage.php" class="change-to-adm-btn">Administrador</a>
             </div>
         </div>
     </header>
@@ -118,15 +122,10 @@
                     <div class="break-line-white">
     
                     </div>
-                    <a href="#">Nossa história</a>
+                    <a href="about-us.php">Nossa história</a>
                 </div>
-    
                 
             </div>
-
-
-
-
         </div>
         
 

@@ -1,7 +1,7 @@
 <?php
 
 $host = 'localhost';
-$dbname = 'sistema_de_gerenciamento';
+$dbname = 'biblioteca';
 $user = 'root';
 $password = '';
 
@@ -13,7 +13,7 @@ if (!$conn) {
 }
 
 else {
-    echo "Conexão bem sucedida!!!!!!!!!!!!";
+    // echo "Conexão bem sucedida!!!!!!!!!!!!";
 }
 
 ?>
